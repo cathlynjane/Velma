@@ -1,0 +1,17 @@
+CHANGED,C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\amodia\velmalandingpage\R$styleable$override.class
+CHANGED,C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\alamkanak\weekview\R$id$override.class
+CHANGED,C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\google\android\gms\R$id$override.class
+CHANGED,C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\design\R$id$override.class
+CHANGED,C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\v7\appcompat\R$id$override.class
+CHANGED,C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\amodia\velmalandingpage\R$integer$override.class
+CHANGED,C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\amodia\velmalandingpage\R$string$override.class
+CHANGED,C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\amodia\velmalandingpage\R$mipmap$override.class
+CHANGED,C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\amodia\velmalandingpage\MainActivity$2$override.class
+CHANGED,C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\amodia\velmalandingpage\MainActivity$override.class
+CHANGED,C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\amodia\velmalandingpage\R$style$override.class
+CHANGED,C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\amodia\velmalandingpage\MainActivity$1$override.class
+CHANGED,C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\amodia\velmalandingpage\R$layout$override.class
+CHANGED,C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\amodia\velmalandingpage\R$id$override.class
+CHANGED,C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\amodia\velmalandingpage\R$menu$override.class
+CHANGED,C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\google\example\easypermissions\R$id$override.class
