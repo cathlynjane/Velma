@@ -4,67 +4,34 @@
     api-level="21"
     density="xxhdpi"
     format="7"
-    timestamp="15945524810156"
-    token="-3165555193100935090"
-    verifier="R_CLASS_CHANGE" >
+    timestamp="387417571356651"
+    token="-3165555193100935090" >
 
     <task
         name="javac"
-        duration="1344" />
+        duration="1398" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="375" />
+        duration="201" />
     <task
         name="verifier"
-        duration="60" />
+        duration="11" />
 
-    <artifact
-        location="C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\res\resources-debug.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-        type="DEX" />
     <artifact
         location="C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
         type="DEX" />
-    <artifact
-        location="C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-        type="DEX" />
 
-    <build timestamp="14886634520418" >
+    <build timestamp="387368558545453" >
         <artifact
             location="C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build
-        timestamp="15945524810156"
-        verifier="R_CLASS_CHANGE" >
-        <artifact
-            location="C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\res\resources-debug.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-            type="DEX" />
+    <build timestamp="387417571356651" >
         <artifact
             location="C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
             type="DEX" />
     </build>
 

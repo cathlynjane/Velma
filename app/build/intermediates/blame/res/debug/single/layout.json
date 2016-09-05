@@ -16,12 +16,12 @@
         "source": "C:\\Users\\kevin\\AndroidStudioProjects\\VelmaLandingPage\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "C:\\Users\\kevin\\AndroidStudioProjects\\VelmaLandingPage\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\kevin\\AndroidStudioProjects\\VelmaLandingPage\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
         "merged": "C:\\Users\\kevin\\AndroidStudioProjects\\VelmaLandingPage\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "C:\\Users\\kevin\\AndroidStudioProjects\\VelmaLandingPage\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.1.1\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin\\AndroidStudioProjects\\VelmaLandingPage\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\kevin\\AndroidStudioProjects\\VelmaLandingPage\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "C:\\Users\\kevin\\AndroidStudioProjects\\VelmaLandingPage\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
@@ -78,6 +78,10 @@
     {
         "merged": "C:\\Users\\kevin\\AndroidStudioProjects\\VelmaLandingPage\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\Users\\kevin\\AndroidStudioProjects\\VelmaLandingPage\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin\\AndroidStudioProjects\\VelmaLandingPage\\app\\build\\intermediates\\res\\merged\\debug\\layout\\monthly_activity_view.xml",
+        "source": "C:\\Users\\kevin\\AndroidStudioProjects\\VelmaLandingPage\\app\\src\\main\\res\\layout\\monthly_activity_view.xml"
     },
     {
         "merged": "C:\\Users\\kevin\\AndroidStudioProjects\\VelmaLandingPage\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
