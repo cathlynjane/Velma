@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86,armeabi-v7a,armeabi"
+    api-level="21"
+    density="xxhdpi"
+    format="7"
+    timestamp="387417571356651"
+    token="-3165555193100935090" >
+
+    <task
+        name="javac"
+        duration="1398" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="201" />
+    <task
+        name="verifier"
+        duration="11" />
+
+    <artifact
+        location="C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+        type="DEX" />
+
+    <build timestamp="387368558545453" >
+        <artifact
+            location="C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="387417571356651" >
+        <artifact
+            location="C:\Users\kevin\AndroidStudioProjects\VelmaLandingPage\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

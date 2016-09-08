@@ -2,13 +2,10 @@ package com.example.amodia.velmalandingpage;
 
 
 
-import android.content.Intent;
 import android.graphics.RectF;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.TypedValue;
@@ -22,6 +19,10 @@ import com.alamkanak.weekview.DateTimeInterpreter;
 import com.alamkanak.weekview.MonthLoader;
 import com.alamkanak.weekview.WeekView;
 import com.alamkanak.weekview.WeekViewEvent;
+import com.google.android.gms.auth.api.Auth;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.ResultCallback;
+import com.google.android.gms.common.api.Status;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -36,6 +37,8 @@ public class MainActivity extends AppCompatActivity implements WeekView.EventCli
     private static final int TYPE_WEEK_VIEW = 3;
     private int mWeekViewType = TYPE_THREE_DAY_VIEW;
     private WeekView mWeekView;
+    GoogleApiClient mGoogleApiClient;
+    CalendarView calendarView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements WeekView.EventCli
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
 
 
         // Get a reference for the week view in the layout.
@@ -85,6 +89,18 @@ public class MainActivity extends AppCompatActivity implements WeekView.EventCli
 
         switch (id) {
             case R.id.action_monthly_view:
+                setContentView(R.layout.monthly_activity_view);
+                calendarView = (CalendarView) findViewById(R.id.calendar);
+
+                FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab2);
+                fab.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                                .setAction("Action", null).show();
+                    }
+                });
+
                 return true;
             case R.id.action_today:
                 mWeekView.goToToday();
@@ -125,9 +141,24 @@ public class MainActivity extends AppCompatActivity implements WeekView.EventCli
                     mWeekView.setEventTextSize((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, 10, getResources().getDisplayMetrics()));
                 }
                 return true;
+            case R.id.action_logout:
+                signOut();
+                return true;
+
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void signOut() {
+        Auth.GoogleSignInApi.signOut(mGoogleApiClient).setResultCallback(
+                new ResultCallback<Status>() {
+                    @Override
+                    public void onResult(Status status) {
+//                        Intent intent = new Intent(this, LogInActivity.class);
+//                        startActivity(intent);
+                    }
+                });
     }
 
     /**
